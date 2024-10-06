@@ -157,9 +157,14 @@ a.secondary {
     justify-content: center;
   }
 }
+.logo{
+  /* size: 15px; */
+  height: 15px;
 
+}
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
+    height: 15px;
   }
 }
