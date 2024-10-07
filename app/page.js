@@ -60,18 +60,24 @@ export default function Home() {
 <hr/>
 
                 <section id="products" className="product-list">
-                    <h2>Featured Products</h2>
-                    <div className="product">
-                        <img src="/images/product1.jpg" alt="Product 1" />
+                    {/* <h2>Featured Products</h2> */}
+                    <div className="product product1">
+                        <img src="/images/bag.jpg" alt="Product 1" />
                         <h3>Product 1</h3>
                         <p>Short description of Product 1.</p>
-                        <button>Add to Cart</button>
+                        {/* <button>Add to Cart</button> */}
                     </div>
-                    <div className="product">
-                        <img src="/images/product2.jpg" alt="Product 2" />
+                    <div className="product product2">
+                        <img src="/images/toy.jpg" alt="Product 2" />
                         <h3>Product 2</h3>
                         <p>Short description of Product 2.</p>
-                        <button>Add to Cart</button>
+                        {/* <button>Add to Cart</button> */}
+                    </div>
+                    <div className="product product3">
+                        <img src="/images/belt.jpg" alt="Product 2" />
+                        <h3>Product 2</h3>
+                        <p>Short description of Product 2.</p>
+                        {/* <button>Add to Cart</button> */}
                     </div>
                     {/* Add more products as needed */}
                 </section>
